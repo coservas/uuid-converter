@@ -1,0 +1,26 @@
+{
+  "name": "coservas/uuid-converter",
+  "description": "Uuid converter",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Sergei Vasilev",
+      "email": "vasiliev05@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coservas\\UuidConverter\\": "src/",
+      "Test\\Coservas\\UuidConverter\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "roave/security-advisories": "dev-latest",
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^9.6"
+  }
+}

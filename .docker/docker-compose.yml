@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  php:
+    container_name: php-uuid-converter
+    build:
+      context: .
+    environment:
+      XDEBUG_MODE: 'coverage'
+    volumes:
+      - ./..:/app
